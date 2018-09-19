@@ -9,5 +9,19 @@
  * @author Equipo de Trabajo
  */
 public class Rueda {
+      private String marca;
+    private String color;
     
+    public Rueda(String marca, String color){
+        this.marca = marca;
+        this.color = color;
+    }
+
+    public String getMarca(){
+	return this.marca;
+    }
+
+    public String getColor(){
+	return this.color;
+    }
 }
