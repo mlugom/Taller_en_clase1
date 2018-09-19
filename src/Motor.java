@@ -9,5 +9,19 @@
  * @author Equipo de Trabajo
  */
 public class Motor {
-    
+     private float cilindraje;
+    private float potencia;
+
+    public Motor(float cilindraje, float potencia){
+        this.cilindraje = cilindraje;
+        this.potencia = potencia;
+    }
+
+    public float getCilindraje(){
+	return this.cilindraje;
+    }
+
+    public float getPotencia(){
+	return this.potencia;
+    }
 }
