@@ -9,5 +9,16 @@
  * @author Equipo de Trabajo
  */
 public class Main1 {
-    
+    Persona persona1 = new Persona("Pipe");
+
+	Carro carro1 = new Carro("a");
+	Carro carro2 = new Carro("b");
+	Carro carro3 = new Carro("c");
+
+	persona1.addCarro(carro1);
+	persona1.addCarro(carro2);
+	persona1.addCarro(carro3);
+
+	persona1.listarCarros();
+    }
 }
