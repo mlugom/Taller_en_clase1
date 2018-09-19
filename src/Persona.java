@@ -1,3 +1,6 @@
+
+import java.util.ArrayList;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -10,11 +13,11 @@
  */
 public class Persona {
      private String nombre;
-    private ArrayList<Carro> carros;
+     private ArrayList<Carro> carros;
 
     public Persona(String nombre){
 	this.nombre = nombre;
-	this.carros = new ArrayListo<Carro>();
+	this.carros = new ArrayList<Carro>();
     }
 
     public void addCarro(Carro carro){
