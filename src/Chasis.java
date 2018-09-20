@@ -4,10 +4,44 @@
  * and open the template in the editor.
  */
 
+
 /**
  *
- * @author Equipo de Trabajo
+ * @author Estudiante
  */
 public class Chasis {
+    private String marca;
+    private String color;
+    private float diametro;
+
+    public Chasis(String marca, String color, float diametro){
+        this.marca = marca;
+	this.color = color;
+	this.diametro = diametro;
+    }
+
+    public String getMarca(){
+	return this.marca;
+    }
+
+    public String getColor(){
+	return this.color;
+    }
+
+    public float getDiametro(){
+	return this.diametro;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setDiametro(float diametro) {
+        this.diametro = diametro;
+    }
     
 }
